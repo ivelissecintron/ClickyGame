@@ -12,6 +12,9 @@ import Pam from './assets/images/pam.jpg';
 import Phyllis from './assets/images/phyllis.jpg';
 import Stanley from './assets/images/stanley.png';
 import Toby from './assets/images/toby.jpg';
+import Kelly from './assets/images/kelly.jpg';
+import Angela from './assets/images/angela.png';
+import Darryl from './assets/images/darryl.jpg';
 
 class App extends Component {
   render() {
@@ -47,6 +50,9 @@ class App extends Component {
         <img src={Phyllis} alt ={"Phyllis"}/>
         <img src={Stanley} alt ={"Stanley"}/>
         <img src={Toby} alt ={"Toby"}/>
+        <img src={Kelly} alt ={"Kelly"}/>
+        <img src={Angela} alt ={"Angela"}/>
+        <img src={Darryl} alt ={"Darryl"}/>
         </main>
 
         <footer className="footer">
