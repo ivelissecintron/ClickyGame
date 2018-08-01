@@ -17,10 +17,24 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+        <nav className="navbar">
+          <ul>
+            <li className="guess">
+              You guessed correctly or incorrectly!
+            </li>
+            <li className="score">
+              Score: 0 | Top Score : 0
+            </li>  
+          </ul>
+        </nav>        
+
         <header className="App-header">
           <h1 className="App-title">The Office Clicky Game</h1>
           <h2 className="Instructions">Click on an image to earn points, but don't click on any image more than once!</h2>
         </header>
+
+        <main className="container">
         <img src={Andy} alt={"Andy"}/>
         <img src={Creed} alt ={"Creed"}/>
         <img src={Dwight} alt ={"Dwight"}/>
@@ -33,6 +47,12 @@ class App extends Component {
         <img src={Phyllis} alt ={"Phyllis"}/>
         <img src={Stanley} alt ={"Stanley"}/>
         <img src={Toby} alt ={"Toby"}/>
+        </main>
+
+        <footer className="footer">
+          <a href="https://github.com/ivelissecintron/ClickyGame">Ivelisse Cintron</a>
+        </footer>
+
       </div>
     );
   }

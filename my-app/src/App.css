@@ -17,3 +17,40 @@
   font-size: 1.5em;
 }
 
+img {
+  height: 170px;
+  width: 170px;
+  margin: 8px 25px;
+  border: 5px solid #f1f1f1;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: rgb(58, 54, 54);
+  height: 100px;
+  position: relative;
+  color: #fff;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  min-height: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 26px 0;
+  width: 33.3%;
+  text-align: center;
+} 
+
+.navbar {
+  background-color: rgb(31, 30, 30);
+  color: #fff;
+}
