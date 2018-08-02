@@ -56,7 +56,7 @@ class App extends Component {
         </main>
 
         <footer className="footer">
-          <a href="https://github.com/ivelissecintron/ClickyGame">Ivelisse Cintron</a>
+          <a href="https://github.com/ivelissecintron/ClickyGame">©2018 Ivelisse Cintron</a>
         </footer>
 
       </div>
