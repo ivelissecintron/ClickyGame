@@ -1,7 +1,7 @@
 import React from "react";
 import "./Office.css";
 
-const officecard = props => (
+const Officecard = props => (
     <button onClick={() => props.handleOnchange(props.id, props.phrase)}>
         <div className="cards">
             <div className="img-container">
@@ -11,4 +11,4 @@ const officecard = props => (
     </button>
 );
 
-export default officecard;
+export default Officecard;
