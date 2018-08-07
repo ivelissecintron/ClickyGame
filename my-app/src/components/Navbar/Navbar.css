@@ -5,11 +5,14 @@
 	display:inline-block;
 	color: white;
 	background-color: rgb(58, 54, 54);
+	text-align: center;
 }
 .App-title {
 	font-size: 1.5em;
 	font-size: 2em;
+	text-align: center;
 }
 .Instructions {
-  font-size: 1.5em;
+	font-size: 1.5em;
+	text-align: center;
 }
