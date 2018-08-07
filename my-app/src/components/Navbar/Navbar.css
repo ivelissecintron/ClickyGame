@@ -3,4 +3,13 @@
 	width: 100%;
 	position: fixed;
 	display:inline-block;
+	color: white;
+	background-color: rgb(58, 54, 54);
+}
+.App-title {
+	font-size: 1.5em;
+	font-size: 2em;
+}
+.Instructions {
+  font-size: 1.5em;
 }

@@ -9,28 +9,12 @@
   color: white;
 }
 
-.App-title {
-  font-size: 2em;
-}
-
-.Instructions {
-  font-size: 1.5em;
-}
-
 img {
   height: 170px;
   width: 170px;
   margin: 8px 25px;
   border: 5px solid #f1f1f1;
   border-radius: 3px;
-}
-
-footer {
-  background-color: rgb(58, 54, 54);
-  height: 100px;
-  position: relative;
-  color: #fff;
-  overflow: auto;
 }
 
 .container {
@@ -49,9 +33,3 @@ footer {
   width: 33.3%;
   text-align: center;
 } 
-
-.navbar {
-  background-color: rgb(31, 30, 30);
-  color: #fff;
-  width: 100%;
-}
